@@ -2,7 +2,7 @@ name: WF local
 on: [push, workflow_dispatch]
 jobs:
   buildJob:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Simulation d'exécution du Build
         run: echo "Build en cours"
